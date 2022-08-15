@@ -1,5 +1,4 @@
 import { PassThrough } from "stream"
-
 import { Response } from "@remix-run/node"
 import { RemixServer } from "@remix-run/react"
 import { renderToPipeableStream } from "react-dom/server"
@@ -12,7 +11,7 @@ global.ENV = getEnv()
 
 if (!global.cache) {
   console.log("initializing cache")
-  global.cache = new TTLCache({ max: 100, ttl: 1000 * 1 * 1 })
+  global.cache = new TTLCache({ max: 100, ttl: 1000 * 60 * 1 })
 }
 
 export default function handleRequest(
