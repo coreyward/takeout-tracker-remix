@@ -1,86 +1,57 @@
-// import { ReactComponent as Beer } from "~/images/Beer.svg"
-// import { ReactComponent as Book } from "~/images/Book.svg"
-// import { ReactComponent as Cards } from "~/images/Cards.svg"
-// import { ReactComponent as Cart } from "~/images/Cart.svg"
-// import { ReactComponent as CheckCircle } from "~/images/CheckCircle.svg"
-// import { ReactComponent as Clock } from "~/images/Clock.svg"
-// import { ReactComponent as Closed } from "~/images/Closed.svg"
-// import { ReactComponent as Cocktail } from "~/images/Cocktail.svg"
-// import { ReactComponent as Delivery } from "~/images/Delivery.svg"
-// import { ReactComponent as Dining } from "~/images/Dining.svg"
-// import { ReactComponent as ForSale } from "~/images/ForSale.svg"
-// import { ReactComponent as Groceries } from "~/images/Groceries.svg"
-// import { ReactComponent as Info } from "~/images/Info.svg"
-// import { ReactComponent as Instagram } from "~/images/Instagram.svg"
-// import { ReactComponent as LeftChevron } from "~/images/LeftChevron.svg"
-// import { ReactComponent as Link } from "~/images/Link.svg"
-// import { ReactComponent as MapMarker } from "~/images/MapMarker.svg"
-// import { ReactComponent as Menu } from "~/images/Menu.svg"
-// import { ReactComponent as Merch } from "~/images/Merch.svg"
-// import { ReactComponent as Phone } from "~/images/Phone.svg"
-// import { ReactComponent as Pin } from "~/images/Pin.svg"
-// import { ReactComponent as Tag } from "~/images/Tag.svg"
-// import { ReactComponent as Tiles } from "~/images/Tiles.svg"
-// import { ReactComponent as Warning } from "~/images/Warning.svg"
-// import { ReactComponent as Website } from "~/images/Website.svg"
-// import { ReactComponent as Wine } from "~/images/Wine.svg"
+import Beer from "~/images/react/Beer"
+import Book from "~/images/react/Book"
+import Cards from "~/images/react/Cards"
+import Cart from "~/images/react/Cart"
+import CheckCircle from "~/images/react/CheckCircle"
+import Clock from "~/images/react/Clock"
+import Closed from "~/images/react/Closed"
+import Cocktail from "~/images/react/Cocktail"
+import Delivery from "~/images/react/Delivery"
+import Dining from "~/images/react/Dining"
+import ForSale from "~/images/react/ForSale"
+import Groceries from "~/images/react/Groceries"
+import Info from "~/images/react/Info"
+import Instagram from "~/images/react/Instagram"
+import LeftChevron from "~/images/react/LeftChevron"
+import Link from "~/images/react/Link"
+import MapMarker from "~/images/react/MapMarker"
+import Menu from "~/images/react/Menu"
+import Merch from "~/images/react/Merch"
+import Phone from "~/images/react/Phone"
+import Pin from "~/images/react/Pin"
+import Tag from "~/images/react/Tag"
+import Tiles from "~/images/react/Tiles"
+import Warning from "~/images/react/Warning"
+import Website from "~/images/react/Website"
+import Wine from "~/images/react/Wine"
 
-// const Icons = {
-//   Beer,
-//   Book,
-//   Cards,
-//   Cart,
-//   CheckCircle,
-//   Clock,
-//   Closed,
-//   Cocktail,
-//   Delivery,
-//   Dining,
-//   ForSale,
-//   Groceries,
-//   Info,
-//   Instagram,
-//   LeftChevron,
-//   Link,
-//   MapMarker,
-//   Menu,
-//   Merch,
-//   Phone,
-//   Pin,
-//   Tag,
-//   Tiles,
-//   Warning,
-//   Website,
-//   Wine,
-// }
-
-// export default Icons
-
-export default {
-  Beer: () => <div>X</div>,
-  Book: () => <div>X</div>,
-  Cards: () => <div>X</div>,
-  Cart: () => <div>X</div>,
-  CheckCircle: () => <div>X</div>,
-  Clock: () => <div>X</div>,
-  Closed: () => <div>X</div>,
-  Cocktail: () => <div>X</div>,
-  Delivery: () => <div>X</div>,
-  Dining: () => <div>X</div>,
-  ForSale: () => <div>X</div>,
-  Groceries: () => <div>X</div>,
-  Info: () => <div>X</div>,
-  Instagram: () => <div>X</div>,
-  LeftChevron: () => <div>X</div>,
-  Link: () => <div>X</div>,
-  MapMarker: () => <div>X</div>,
-  Menu: () => <div>X</div>,
-  Merch: () => <div>X</div>,
-  Phone: () => <div>X</div>,
-  Pin: () => <div>X</div>,
-  Tag: () => <div>X</div>,
-  Tiles: () => <div>X</div>,
-  Warning: () => <div>X</div>,
-  Website: () => <div>X</div>,
-  Wine: () => <div>X</div>,
+const Icons = {
+  Beer,
+  Book,
+  Cards,
+  Cart,
+  CheckCircle,
+  Clock,
+  Closed,
+  Cocktail,
+  Delivery,
+  Dining,
+  ForSale,
+  Groceries,
+  Info,
+  Instagram,
+  LeftChevron,
+  Link,
+  MapMarker,
+  Menu,
+  Merch,
+  Phone,
+  Pin,
+  Tag,
+  Tiles,
+  Warning,
+  Website,
+  Wine,
 }
+
+export default Icons
